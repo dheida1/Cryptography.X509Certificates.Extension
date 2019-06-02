@@ -6,4 +6,3 @@ C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptogr
 C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\obj\Release\netstandard2.0\Cryptography.X509Certificates.Extension.AssemblyInfo.cs
 C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\obj\Release\netstandard2.0\Cryptography.X509Certificates.Extension.dll
 C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\obj\Release\netstandard2.0\Cryptography.X509Certificates.Extension.pdb
-C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\obj\Release\netstandard2.0\Cryptography.X509Certificates.Extension.csprojAssemblyReference.cache

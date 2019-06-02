@@ -15,13 +15,13 @@
     <copyright>OTS Copyright 2019</copyright>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="System.Security.Cryptography.X509Certificates" Version="4.3.2" />
+        <dependency id="System.Security.Cryptography.X509Certificates" version="4.3.2" />
       </group>
     </dependencies>
     <tags>X509Certificates X509Certificates2 Cryptography Security</tags>
   </metadata>
   <files>
     <file src="readme.txt" target="" />
-    <file src="bin\Release\netstandard2.0\*.dll" target="lib\netstandard2.0" />
+    <file src="bin\Debug\netstandard2.0\*.dll" target="lib\netstandard2.0" />
   </files>
 </package>
