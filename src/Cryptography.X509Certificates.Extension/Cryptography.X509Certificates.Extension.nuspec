@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Cryptography.X509Certificates.Extension</id>
+    <version>1.0.0.0</version>
+    <title>Cryptography.X509Certificates.Extension</title>
+    <authors>Dina Heidar</authors>
+    <owners>OTS</owners>
+    <language>en-US</language>
+    <projectUrl>https://git.la.gov/OTS/Cryptography.X509Certificates.Extension.git</projectUrl>   
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extension to search for X509Certificate2 in certifcate store. Ideal to use when in production mode on servers.
+    </description>
+    <releaseNotes>Initial</releaseNotes>
+    <copyright>OTS Copyright 2019</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.Cryptography.X509Certificates" Version="4.3.2" />
+      </group>
+    </dependencies>
+    <tags>X509Certificates X509Certificates2 Cryptography Security</tags>
+  </metadata>
+  <files>
+    <file src="readme.txt" target="" />
+    <file src="bin\Release\netstandard2.0\*.dll" target="lib\netstandard2.0" />
+  </files>
+</package>
