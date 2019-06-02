@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dinah\\source\\repos\\Cryptography.X509Certificates.Extension\\src\\Cryptography.X509Certificates.Extension\\Cryptography.X509Certificates.Extension.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dinah\\source\\repos\\Cryptography.X509Certificates.Extension\\src\\Cryptography.X509Certificates.Extension\\Cryptography.X509Certificates.Extension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dinah\\source\\repos\\Cryptography.X509Certificates.Extension\\src\\Cryptography.X509Certificates.Extension\\Cryptography.X509Certificates.Extension.csproj",
+        "projectName": "Cryptography.X509Certificates.Extension",
+        "projectPath": "C:\\Users\\dinah\\source\\repos\\Cryptography.X509Certificates.Extension\\src\\Cryptography.X509Certificates.Extension\\Cryptography.X509Certificates.Extension.csproj",
+        "packagesPath": "C:\\Users\\dinah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dinah\\source\\repos\\Cryptography.X509Certificates.Extension\\src\\Cryptography.X509Certificates.Extension\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dinah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://s-pmas-wwb01.swe.la.gov/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
