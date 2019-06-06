@@ -22,6 +22,3 @@ X509Certificate2 cert = new Cryptography.X509Certificates.Extension.X509Certific
                 false);
 ```
 
-Cryptography.X509Certificates.Extension.X509Certificate2 inherits from System.Security.Cryptography.X509Certificates.X509Certificate2 to create a new 
-Cryptography.X509Certificates.Extension.X509Certificate2 type certificate.
-
