@@ -1,3 +1,13 @@
+## Nuget Installation 
+
+[Link to Nuget page](https://www.nuget.org/packages/Cryptography.X509Certificates.Extension/)
+```cs
+
+PM> Install-Package Cryptography.X509Certificates.Extension
+
+```
+
+
 # To Use:
 
 #### To only retriveve a valid matching certificate from the certificate store:
