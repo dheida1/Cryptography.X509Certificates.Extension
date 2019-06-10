@@ -10,7 +10,7 @@ PM> Install-Package Cryptography.X509Certificates.Extension
 
 # To Use:
 
-#### To only retriveve a valid matching certificate from the certificate store:
+#### To only retrieve a valid matching certificate from the certificate store:
 
 ```
 X509Certificate2 cert = new Cryptography.X509Certificates.Extension.X509Certificate2(
