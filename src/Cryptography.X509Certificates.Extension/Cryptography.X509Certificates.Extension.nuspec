@@ -7,8 +7,7 @@
     <authors>Dina Heidar</authors>
     <owners>Dina Heidar</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="file">License.txt</license>
-    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <license type="file">readme.txt</license>
     <projectUrl>https://github.com/dheida1/Cryptography.X509Certificates.Extension</projectUrl>
     <description>Extension to search for X509Certificate2 in certifcate store. Ideal to use when in production mode on servers.</description>
     <summary>Extension to search for X509Certificate2 in certifcate store. Ideal to use when in production mode on servers.</summary>
@@ -23,7 +22,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="readme.txt" target="" />
+    <file src="readme.txt" target="" />    
     <file src="bin\Release\netstandard2.0\*.dll" target="lib\netstandard2.0" />
   </files>
 </package>

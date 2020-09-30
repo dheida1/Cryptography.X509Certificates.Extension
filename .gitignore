@@ -342,3 +342,5 @@ healthchecksdb
 # nuspec
 Dheida1/
 Ots/
+/src/Cryptography.X509Certificates.Extension/obj
+/src/Cryptography.X509Certificates.Extension/bin

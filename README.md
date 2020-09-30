@@ -42,6 +42,6 @@ X509Certificate2 cert = new Cryptography.X509Certificates.Extension.X509Certific
                 StoreLocation.LocalMachine,
                 X509FindType.FindBySerialNumber,
                 true, 
-                true);
+                false);
 ```
 
