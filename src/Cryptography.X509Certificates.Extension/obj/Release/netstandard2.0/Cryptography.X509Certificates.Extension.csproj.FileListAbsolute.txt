@@ -1,8 +1,0 @@
-C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\bin\Release\netstandard2.0\Cryptography.X509Certificates.Extension.deps.json
-C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\bin\Release\netstandard2.0\Cryptography.X509Certificates.Extension.dll
-C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\bin\Release\netstandard2.0\Cryptography.X509Certificates.Extension.pdb
-C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\obj\Release\netstandard2.0\Cryptography.X509Certificates.Extension.csproj.CoreCompileInputs.cache
-C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\obj\Release\netstandard2.0\Cryptography.X509Certificates.Extension.AssemblyInfoInputs.cache
-C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\obj\Release\netstandard2.0\Cryptography.X509Certificates.Extension.AssemblyInfo.cs
-C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\obj\Release\netstandard2.0\Cryptography.X509Certificates.Extension.dll
-C:\Users\dinah\source\repos\Cryptography.X509Certificates.Extension\src\Cryptography.X509Certificates.Extension\obj\Release\netstandard2.0\Cryptography.X509Certificates.Extension.pdb

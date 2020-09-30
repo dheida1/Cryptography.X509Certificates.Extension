@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cryptography.X509Certificates.Extension\Cryptography.X509Certificates.Extension.csproj" />
+    <PackageReference Include="Cryptography.X509Certificates.Extension" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
