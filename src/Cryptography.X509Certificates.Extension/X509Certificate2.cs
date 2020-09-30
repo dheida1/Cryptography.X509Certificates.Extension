@@ -33,35 +33,47 @@ namespace Cryptography.X509Certificates.Extension
         /// Extension to search for X509Certificate in certifcate store.
         /// Ideal to use when in production mode on servers.
         /// </summary>
-        /// <param name="value">The value of the certifcate FindType</param>
-        /// <param name="storeName">The certificate store name</param>
-        /// <param name="storeLocation">The certificate store name. Usually 'LocalMachine' or 'CurrentUser'</param>
-        /// <param name="x509FindType">The value type. This could be the serial number, thumprint,..etc</param>
-        /// <param name="validOnly"> indicates to only search for valid certificates. The default is se to 'true'</param>
-        /// <returns>
-        /// The certificate.
-        /// </returns>
+        /// <param name="value">
+        /// The value of the certifcate FindType
+        /// </param>
+        /// <param name="storeName">
+        /// The certificate store name
+        /// </param>
+        /// <param name="storeLocation">
+        /// The certificate store name. Usually 'LocalMachine' or 'CurrentUser'
+        /// </param>
+        /// <param name="x509FindType">
+        /// The value type. This could be the serial number, thumprint,..etc
+        /// </param>
+        /// <param name="validOnly">
+        /// indicates to only search for valid certificates. The default is set to <c>true</c>.
+        /// </param>
+        /// <param name="hasPrivateKey">
+        /// indicates to search for certificates that have a private key. Default is set to <c>true</c>.
+        /// </param>
+        /// <returns>The certificate.</returns>
         /// <example>
-        /// <code>
-        /// X509Certificate2 cert = new Cryptography.X509Certificates.Extension.X509Certificate2(
-        ///                 "1E0001122AA33324CFE608FC2200000001122A",
-        ///                 StoreName.My,
-        ///                 StoreLocation.LocalMachine,
-        ///                 X509FindType.FindBySerialNumber);
-        /// </code>
+        ///   <br />
+        ///   <code>X509Certificate2 cert = new Cryptography.X509Certificates.Extension.X509Certificate2(
+        /// "1E0001122AA33324CFE608FC2200000001122A",
+        /// StoreName.My,
+        /// StoreLocation.LocalMachine,
+        /// X509FindType.FindBySerialNumber);</code>
         /// </example>
         public X509Certificate2(
            string value,
            StoreName storeName,
            StoreLocation storeLocation,
            X509FindType x509FindType,
-           bool validOnly = true
+           bool validOnly = true,
+           bool hasPrivateKey = true
            ) : base(GetCert(
                 value,
                 storeName,
                 storeLocation,
                 x509FindType,
-                validOnly))
+                validOnly,
+                hasPrivateKey))
         { }
 
         private static System.Security.Cryptography.X509Certificates.X509Certificate2 GetCert(
@@ -69,7 +81,8 @@ namespace Cryptography.X509Certificates.Extension
             StoreName storeName,
             StoreLocation storeLocation,
             X509FindType x509FindType,
-            bool validOnly
+            bool validOnly,
+            bool hasPrivateKey
             )
         {
             using (var store = new X509Store(storeName, storeLocation))
@@ -87,7 +100,7 @@ namespace Cryptography.X509Certificates.Extension
                 }
                 System.Security.Cryptography.X509Certificates.X509Certificate2 x509Certificate2 = collection[0];
 
-                if (x509Certificate2.PrivateKey == null)
+                if (x509Certificate2.PrivateKey == null && hasPrivateKey)
                 {
                     throw new InvalidOperationException("The certificate for this service providerhas no private key.");
                 }
