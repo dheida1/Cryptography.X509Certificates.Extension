@@ -32,4 +32,4 @@ Getting started Documentation
 ________________________________
 for complete startup documentation you can read more on github:
 
-https://github.com/dheida1/Saml2Core/blob/master/README.md
+https://github.com/dheida1/Cryptography.X509Certificates.Extension/blob/master/README.md
